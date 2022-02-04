@@ -1,0 +1,14 @@
+list1 = [12, -7, 5, 64, -14]
+list2 = [12, 14, -95, 3]
+list1new = []
+list2new = []
+
+for n in list1:
+    if n>0:
+        print (n, end=', ')
+        
+for n in list2:
+    if n>0:
+        list2new.append(n)
+print('\n')
+print(list2new)
